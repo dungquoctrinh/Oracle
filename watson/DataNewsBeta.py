@@ -6,7 +6,9 @@ from bs4 import  BeautifulSoup as bs
 
 
 def collectNews(company, timeBegin, timeEnd):
-    alchemy_data_news = AlchemyDataNewsV1(api_key='d4a97f67bd08aa3720bd3be9dc5c92ad720f16fa')
+    #change the key for the API in here. This is the AlchemyDataNews
+    KEY = '554259945902490161462f7e78bbf5829106ee4f'
+    alchemy_data_news = AlchemyDataNewsV1(api_key=KEY)
 
     #results = alchemy_data_news.get_news_documents(start='now-60d', end='now', time_slice='12h')
     # print(json.dumps(results, indent=2))
@@ -18,7 +20,7 @@ def collectNews(company, timeBegin, timeEnd):
     #start='1453334400',
     #end='1454022000',
     #time_slice='12h',
-    return_fields=['enriched.url.title',
+    return_fields=[#'enriched.url.title',
                    #'enriched.url.url',
                    #'enriched.url.author',
                    #'enriched.url.publicationDate',
@@ -37,15 +39,17 @@ def parseNew(data):
     :return: sentiment analysis
     """
     score = 0
+    count = 0
     #data = json.loads(file)
 
-    #parse = bs(data["score"])
-    for each score in bs(data["score"]):
-    #print parse
-    #print parse.result.docs.find_all("source")
-    #print data.get("source",{})
 
-    return score
+
+    for x in data['result']['docs']:
+        for y in x['source']['enriched']['url']['entities']:
+            score +=(y['sentiment']['score'])
+            count+=1
+
+    return score/count
 
 
 def main(argv):
