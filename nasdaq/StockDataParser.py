@@ -1,16 +1,19 @@
 import json
 import xml.etree.ElementTree as xmlParser
+from StringIO import StringIO
 import os
 
 def startSpider(root):
-    jsonStock = []
+    jsonStock = {}
+    print root
     for child in root.iter("SummarizedTradeCollection"):
         for grandChild in child.iter("SummarizedTrade"):
             currentDate = getDate(grandChild.find("Time"));
             currentDate = str(currentDate)
 
             if(currentDate != None):
-                if (bool(jsonStock) == False or currentDate not in jsonStock):
+                if (bool(jsonStock) == False):
+                    print currentDate
                     jsonStock = {currentDate:
                     [{"hour": getHour(grandChild.find("Time")),
                      "first:": getFirstPrice(grandChild.find("First")),
@@ -18,6 +21,15 @@ def startSpider(root):
                      "high": getHigh(grandChild.find("High")),
                      "low": getLow(grandChild.find("Low"))
                      }]}
+                elif (currentDate not in jsonStock):
+                    print currentDate
+                    jsonStock.update({currentDate:
+                    [{"hour": getHour(grandChild.find("Time")),
+                     "first:": getFirstPrice(grandChild.find("First")),
+                     "end": getEndPrice(grandChild.find("Last")),
+                     "high": getHigh(grandChild.find("High")),
+                     "low": getLow(grandChild.find("Low"))
+                     }]})
                 else:
                     jsonStock[currentDate].append(
                     {"hour": getHour(grandChild.find("Time")),
@@ -71,6 +83,7 @@ if __name__ == "__main__":
     allJsonStock = {}
     path = "newestData/"
     for file in os.listdir(path):
+
         tree = xmlParser.parse(os.path.join(path, file))
         print file
         allJsonStock.update(startSpider(tree.getroot()));
