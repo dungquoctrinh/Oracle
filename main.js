@@ -3,6 +3,9 @@ var path = require('path');
 
 var app = express();
 
+//app.use('/stockmarket', require('./nasdaq/'));
+app.use('/test', require('./nasdaq/TestingNasdaq'));
+
 // Static paths to be served like index.html and all client side js
 app.use(express.static(path.join(__dirname, 'public')));
 

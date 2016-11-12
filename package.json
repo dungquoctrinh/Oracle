@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/dungquoctrinh/Oracle/issues"
   },
-  "homepage": "https://github.com/dungquoctrinh/Oracle#readme"
+  "homepage": "https://github.com/dungquoctrinh/Oracle#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
 }
