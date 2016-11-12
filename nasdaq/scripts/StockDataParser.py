@@ -15,7 +15,7 @@ def startSpider(root):
                     print currentDate
                     jsonStock = {currentDate:
                     [{"hour": getHour(grandChild.find("Time")),
-                     "first:": getFirstPrice(grandChild.find("First")),
+                     "first": getFirstPrice(grandChild.find("First")),
                      "end": getEndPrice(grandChild.find("Last")),
                      "high": getHigh(grandChild.find("High")),
                      "low": getLow(grandChild.find("Low"))
@@ -24,7 +24,7 @@ def startSpider(root):
                     print currentDate
                     jsonStock.update({currentDate:
                     [{"hour": getHour(grandChild.find("Time")),
-                     "first:": getFirstPrice(grandChild.find("First")),
+                     "first": getFirstPrice(grandChild.find("First")),
                      "end": getEndPrice(grandChild.find("Last")),
                      "high": getHigh(grandChild.find("High")),
                      "low": getLow(grandChild.find("Low"))
@@ -32,7 +32,7 @@ def startSpider(root):
                 else:
                     jsonStock[currentDate].append(
                     {"hour": getHour(grandChild.find("Time")),
-                     "first:": getFirstPrice(grandChild.find("First")),
+                     "first": getFirstPrice(grandChild.find("First")),
                      "end": getEndPrice(grandChild.find("Last")),
                      "high": getHigh(grandChild.find("High")),
                      "low": getLow(grandChild.find("Low"))
@@ -84,5 +84,5 @@ if __name__ == "__main__":
         tree = xmlParser.parse(os.path.join(path, file))
         allJsonStock.update(startSpider(tree.getroot()));
 
-    with open("../Completed JSON/stockData.json", "w") as outfile:
+    with open("../Completed JSON/Stock7-1-2016To10-28-2016.json", "w") as outfile:
         outfile.write(json.dumps(allJsonStock, sort_keys=True, indent=4, separators=(',', ': ')));
