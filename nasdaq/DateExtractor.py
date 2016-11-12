@@ -59,5 +59,5 @@ def getLow(child):
 
 
 if __name__ == "__main__":
-    tree = xmlParser.parse("3yearsData.xml")
+    tree = xmlParser.parse("newest.xml")
     startSpider(tree.getroot())

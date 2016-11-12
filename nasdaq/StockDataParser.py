@@ -1,39 +1,32 @@
 import json
 import xml.etree.ElementTree as xmlParser
+import os
 
 def startSpider(root):
-    jsonStr = None
+    jsonStock = []
     for child in root.iter("SummarizedTradeCollection"):
-        jsonStr = []
         for grandChild in child.iter("SummarizedTrade"):
             currentDate = getDate(grandChild.find("Time"));
             currentDate = str(currentDate)
-            #print("1st: ",currentDate)
 
             if(currentDate != None):
-                if (bool(jsonStr) == False):
-                    print("2st: ",currentDate)
-                    jsonStr = {currentDate:
+                if (bool(jsonStock) == False or currentDate not in jsonStock):
+                    jsonStock = {currentDate:
+                    [{"hour": getHour(grandChild.find("Time")),
+                     "first:": getFirstPrice(grandChild.find("First")),
+                     "end": getEndPrice(grandChild.find("Last")),
+                     "high": getHigh(grandChild.find("High")),
+                     "low": getLow(grandChild.find("Low"))
+                     }]}
+                else:
+                    jsonStock[currentDate].append(
                     {"hour": getHour(grandChild.find("Time")),
                      "first:": getFirstPrice(grandChild.find("First")),
                      "end": getEndPrice(grandChild.find("Last")),
                      "high": getHigh(grandChild.find("High")),
                      "low": getLow(grandChild.find("Low"))
-                     }}
-
-                else:
-                    print("3st: ",currentDate)
-                    print(jsonStr)
-                    jsonStr.update({currentDate:
-                     {"hour": getHour(grandChild.find("Time")),
-                     "first": getFirstPrice(grandChild.find("First")),
-                     "end": getEndPrice(grandChild.find("Last")),
-                     "high": getHigh(grandChild.find("High")),
-                     "low": getLow(grandChild.find("Low"))
-                     }})
-                print(jsonStr)
-    print json.dumps(jsonStr, sort_keys=True, indent=4, separators=(',', ': '))
-
+                     });
+    return jsonStock
 
 def getHour(child):
     if (child.tag == "Time"):
@@ -75,5 +68,12 @@ def getLow(child):
 
 
 if __name__ == "__main__":
-    tree = xmlParser.parse("testing.xml")
-    startSpider(tree.getroot())
+    allJsonStock = {}
+    path = "newestData/"
+    for file in os.listdir(path):
+        tree = xmlParser.parse(os.path.join(path, file))
+        print file
+        allJsonStock.update(startSpider(tree.getroot()));
+
+    with open("stockData.json", "w") as outfile:
+        outfile.write(json.dumps(allJsonStock, indent=4, separators=(',', ': ')));
