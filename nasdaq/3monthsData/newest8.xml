@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><ArrayOfSummarizedTradeCollection xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://ws.nasdaqdod.com/services/v1/"> 
+<?xml version="1.0" encoding="utf-8"?><ArrayOfSummarizedTradeCollection> 
 
 <SummarizedTradeCollection>    
 	<Outcome>RequestError</Outcome>    <Message>AAPL did not trade on the date 10/1/2016</Message>    <Identity>Request</Identity>    <Delay>38.8318858</Delay>    <Symbol>AAPL</Symbol>    

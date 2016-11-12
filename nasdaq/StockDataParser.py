@@ -7,6 +7,7 @@ def startSpider(root):
     jsonStock = {}
     print root
     for child in root.iter("SummarizedTradeCollection"):
+        print child
         for grandChild in child.iter("SummarizedTrade"):
             currentDate = getDate(grandChild.find("Time"));
             currentDate = str(currentDate)
@@ -81,12 +82,10 @@ def getLow(child):
 
 if __name__ == "__main__":
     allJsonStock = {}
-    path = "newestData/"
+    path = "3monthsData/"
     for file in os.listdir(path):
-
         tree = xmlParser.parse(os.path.join(path, file))
-        print file
         allJsonStock.update(startSpider(tree.getroot()));
 
     with open("stockData.json", "w") as outfile:
-        outfile.write(json.dumps(allJsonStock, indent=4, separators=(',', ': ')));
+        outfile.write(json.dumps(allJsonStock, sort_keys=True, indent=4, separators=(',', ': ')));
