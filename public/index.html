@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/1.3.3/ui-bootstrap-tpls.min.js"></script>
+
+  <script src="Home/homeController.js"></script>
+  <script src="ChatPage/chatPageController.js"></script>
+  <script src="stockDetail/stockDetailController.js"></script>
+
+  <script src="ui-routes.js"></script>
+
+  <body ng-app="mainApp">
+    <div class="container" ng-controller="homeController">
+        <ul class="nav nav-tabs">
+            <h2>Welcome to Finanical Chat Bot</h2>
+        </ul>
+      <ui-view/>
+    </div>
+  </body>
+</html>
