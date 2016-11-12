@@ -1,0 +1,1 @@
+https://gateway-a.watsonplatform.net/calls/data/GetNews?apikey=d4a97f67bd08aa3720bd3be9dc5c92ad720f16fa&outputMode=json&start=now-1d&end=now&count=100&q.enriched.url.enrichedTitle.relations.relation=|action.verb.text=acquire,object.entities.entity.type=Company|&return=enriched.url.title
