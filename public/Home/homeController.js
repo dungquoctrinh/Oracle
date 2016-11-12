@@ -1,4 +1,5 @@
 app.controller('homeController', ['$scope', function($scope) {
+	var flag = 0;
 	var iheight = -1;
 	$scope.posts = [];
 	$scope.submitPost = function() {
@@ -11,11 +12,17 @@ app.controller('homeController', ['$scope', function($scope) {
 			id: $scope.posts.length + 1
 		});
 		$scope.ctext = '';
-		if (angular.element( document.querySelector('#chatbox'))[0].offsetHeight > angular.element( document.querySelector('#scrollable'))[0].offsetHeight - iheight) {
-			angular.element( document.querySelector('#chatbox'))[0].style.overflow = 'hidden';
-		} else {
-			angular.element( document.querySelector('#chatbox'))[0].style.overflowY = 'scroll';
-		}
+		$scope.$watch('posts', function() {
+			if (angular.element( document.querySelector('#chatbox'))[0].offsetHeight > angular.element( document.querySelector('#scrollable'))[0].offsetHeight - iheight && flag == 0) {
+				angular.element( document.querySelector('#chatbox'))[0].style.overflow = 'hidden';
+			} else {
+				flag = -1;
+				angular.element( document.querySelector('#scrollable'))[0].style.top = '0px';
+				angular.element( document.querySelector('#chatbox'))[0].style.overflowY = 'scroll';
+				angular.element( document.querySelector('#scrollable'))[0].offsetHeight = angular.element( document.querySelector('#chatbox'))[0].scrollHeight;
+				angular.element( document.querySelector('#chatbox'))[0].scrollTop = angular.element( document.querySelector('#chatbox'))[0].scrollHeight;
+			}
+		});
 		
 	};
 }]);
