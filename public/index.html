@@ -1,21 +1,19 @@
 <!DOCTYPE html>
 <html>
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/1.3.3/ui-bootstrap-tpls.min.js"></script>
-
-  <script src="Home/homeController.js"></script>
-  <script src="ChatPage/chatPageController.js"></script>
-  <script src="stockDetail/stockDetailController.js"></script>
-
-  <script src="ui-routes.js"></script>
-
-  <body ng-app="mainApp">
-    <div class="container" ng-controller="homeController">
-        <ul class="nav nav-tabs">
-            <h2>Welcome to Finanical Chat Bot</h2>
-        </ul>
+  <title>Financial Bot</title>
+  <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="Home/css/style.css">
+  <body ng-app="financeapp">
+    <div class="container-fluid" ng-controller="homeController">
       <ui-view/>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-route.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/1.3.3/ui-bootstrap-tpls.min.js"></script>
+    <script src="ui-route.js"></script>
+    <script src="Home/homeController.js"></script>
+    <!-- <script src="ChatPage/chatPageController.js"></script>
+    <script src="stockDetail/stockDetailController.js"></script> -->
   </body>
 </html>

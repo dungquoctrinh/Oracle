@@ -1,3 +1,5 @@
+var app = new angular.module('financeapp', ['ui.router', 'ui.bootstrap', 'ngRoute']);
+
 app.config(['$stateProvider', '$urlRouterProvider',
    function($stateProvider, $router) {
       //redirect to home if path is not matched
@@ -8,14 +10,14 @@ app.config(['$stateProvider', '$urlRouterProvider',
          templateUrl: 'Home/home.template.html',
          controller: 'homeController',
       })
-      .state('chatPage', {
-         url: '/ChatPage',
-         // TODO: templateUrl: 'ChatPage/',
-         controller: 'chatPageController',
-      })
-      .state('stockDetail', {
-         url: '/stockDetail',
-         // TODO: templateUrl: 'Customer/customer.template.html',
-         controller: 'stockDetailController',
-      })
+      // .state('chatPage', {
+      //    url: '/ChatPage',
+      //    // TODO: templateUrl: 'ChatPage/',
+      //    controller: 'chatPageController',
+      // })
+      // .state('stockDetail', {
+      //    url: '/stockDetail',
+      //    // TODO: templateUrl: 'Customer/customer.template.html',
+      //    controller: 'stockDetailController',
+      // })
    }]);

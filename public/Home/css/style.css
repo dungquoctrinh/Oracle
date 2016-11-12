@@ -10,12 +10,30 @@ form {
 	text-align: right;
 }
 
-.chatbox {
+#chatbox {
 	border: 1px solid gray;
-	background-color: lightgray;
+	background-color: #FFFFF0;
 	height: 400px;
 	border-radius: 3px;
 	margin-bottom: 10px;
+}
+
+#scrollable {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+.cpost {
+	background-color: #1E90FF;
+	color: white;
+	padding: 10px;
+	border: 1px solid #1E90FF;
+	border-radius: 6px;
+	margin: 10px;
+	float: right;
+	clear: right;
+	max-width: 90%;
 }
 
 @media(max-width: 990px) {
