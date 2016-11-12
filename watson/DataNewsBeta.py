@@ -1,6 +1,7 @@
 import json
 from watson_developer_cloud import AlchemyDataNewsV1
 import sys
+import 
 
 
 def collectNews(company, timeBegin, timeEnd):
