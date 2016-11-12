@@ -5,7 +5,7 @@ app.config(['$stateProvider', '$urlRouterProvider',
       $stateProvider
       .state('home',  {
          url: '/',
-         // TODO: templateUrl: 'Home/home.template.html',
+         templateUrl: 'Home/home.template.html',
          controller: 'homeController',
       })
       .state('chatPage', {

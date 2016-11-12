@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width = device-width, initial-scale= 1">
+	<title>Finance Analysis</title>
+	<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<div class="container-fluid">
+<div class="page-header">
+	<h1>Finance Analysis</h1>
+</div>
+<div class="row center-block" style="width: 95%;">
+	<label>Chat Box:</label>
+	<form method="post" action="">
+		<div class="form-group">
+			<div class="content row">
+				<div class="col-md-6 chatbox"></div>
+				<div class="col-md-5">
+					<input type="Query" name="query-search" placeholder="Search a company" class="form-control qtxt"></input>
+				</div>
+				<div class="col-md-1 qbtn">
+					<button class="form-control btn btn-primary">Submit</button>
+				</div>
+			</div>
+		</div>
+		<div class="form-group">
+			<div class="content row">
+				<div class="col-md-5">
+					<input class="form-control qtxt" type="text"  name="chattext" placeholder="Type into the chat">
+				</div>
+				<div class="col-md-1 qbtn">
+					<button class="form-control btn btn-primary" type="submit">Post</button>
+				</div>
+				<div class="query-results"></div>
+			</div>
+		</div>
+	</form>
+
+</div>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
