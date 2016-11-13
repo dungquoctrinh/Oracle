@@ -15,9 +15,16 @@ app.controller('homeController', function($scope, $http) {
 			id: $scope.posts.length + 1
 		});
 
-		console.log($scope.ctext);
 		$http.post('/', {'out': $scope.ctext})
 		.then(function(res){
+			console.log(JSON.stringify(res));
+		});
+
+		$http.get('/post').then(function(res) {
+			console.log(JSON.stringify(res));
+		});
+
+		$http.get('/').then(function(res) {
 			console.log(JSON.stringify(res));
 		});
 
