@@ -13,7 +13,8 @@ var alchemy_language = watson.alchemy_language({
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static('extra'));
 app.use(bodyParser.json());
-app.set('view engine', 'pug')
+app.set('view engine', 'pug');
+app.set('views', __dirname+'/views');
 
 app.listen(process.env.NODE_PORT || 3000, process.env.NODE_IP || 'localhost',
 function () {
