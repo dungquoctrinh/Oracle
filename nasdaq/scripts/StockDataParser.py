@@ -80,10 +80,34 @@ def getLow(child):
 if __name__ == "__main__":
     allJsonStock = {}
     # path = "../3monthsData/"
-    path = "../3monthsData2/"
+    path = "../Four Sets/"
+    '''
+    path = "../Four Sets/"
     for file in os.listdir(path):
         tree = xmlParser.parse(os.path.join(path, file))
         allJsonStock.update(startSpider(tree.getroot()));
+    '''
 
-    with open("../Completed JSON/Stock9-1-2016To11-11-2016.json", "w") as outfile:
+    tree = xmlParser.parse(os.path.join(path, "AAPL_10.xml"))
+    allJsonStock.update(startSpider(tree.getroot()));
+    with open("../Completed JSON/AAPL_OUT.json", "w") as outfile:
+        outfile.write(json.dumps(allJsonStock, sort_keys=True, indent=4, separators=(',', ': ')));
+
+    adbe_path = path + "ADBE/"
+    for file in os.listdir(adbe_path):
+        tree = xmlParser.parse(os.path.join(adbe_path, file))
+        allJsonStock.update(startSpider(tree.getroot()));
+    with open("../Completed JSON/ADBE_OUT.json", "w") as outfile:
+        outfile.write(json.dumps(allJsonStock, sort_keys=True, indent=4, separators=(',', ': ')));
+
+    tree = xmlParser.parse(os.path.join(path, "AMZN.xml"))
+    allJsonStock.update(startSpider(tree.getroot()));
+    with open("../Completed JSON/AMZN_OUT.json", "w") as outfile:
+        outfile.write(json.dumps(allJsonStock, sort_keys=True, indent=4, separators=(',', ': ')));
+
+    msft_path = path + "MSFT/"
+    for file in os.listdir(msft_path):
+        tree = xmlParser.parse(os.path.join(msft_path, file))
+        allJsonStock.update(startSpider(tree.getroot()));
+    with open("../Completed JSON/MSFT_OUT.json", "w") as outfile:
         outfile.write(json.dumps(allJsonStock, sort_keys=True, indent=4, separators=(',', ': ')));
