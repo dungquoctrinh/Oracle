@@ -5,6 +5,7 @@ app.controller('homeController', function($scope, $http) {
 	var iheight = -1;
 	$scope.posts = [];
 	$scope.chattext = undefined;
+
 	$scope.submitPost = function() {
 		if (iheight == -1) {
 			iheight = angular.element(document.querySelector('#scrollable'))[0].offsetHeight;
@@ -17,15 +18,15 @@ app.controller('homeController', function($scope, $http) {
 
 		$http.post('/', {'out': $scope.ctext})
 		.then(function(res){
-			console.log(JSON.stringify(res));
+			//console.log(JSON.stringify(res));
 		});
 
 		$http.get('/post').then(function(res) {
-			console.log(JSON.stringify(res));
+			//console.log(JSON.stringify(res));
 		});
 
-		$http.get('/').then(function(res) {
-			console.log(JSON.stringify(res));
+		$http.get('/alchemy').then(function(res) {
+			//console.log(JSON.stringify(res));
 		});
 
 		$scope.ctext = '';

@@ -14,6 +14,7 @@ var alchemy_language = watson.alchemy_language({
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static('extra'));
 app.use(bodyParser.json());
+
 app.set('view engine', 'pug');
 app.set('views', __dirname+'\\views\\');
 
@@ -30,24 +31,29 @@ app.get('/post', function(req, res) {
 	res.render('post.jade', { message: dat });
 });
 
-app.waitAlchemy = function(res, params, callback){
-	alchemy_language.combined(parameters, function (err, response) {
-	   console.log(JSON.stringify(response, null, 2));
+var waitAlchemy = function(req, params, callback){
+  //console.warn("sdfsdf");
+  pjson = "";
+	alchemy_language.combined(params, function (err, response) {
+	   pjson = JSON.stringify(response, null, 2));
 	});
-	// if (pjson == null) {
-	// 	res.sendStatus(400);
-	// }
-	// callback();
-}
+	if (pjson == null) {
+	 	res.sendStatus(400);
+	}
+	callback();
+};
 
-app.get('/', function(req, res) {
-	var parameters = {
+app.get('/alchemy', function(req, res) {
+    //console.log("sdasdasdfsdf");
+	 var parameters = {
 				  extract: 'entities, keywords',
 				  sentiment: 1,
 				  maxRetrieve: 1,
 				  url: "http://finance.ngrok.io/post"
 				};
-	this.waitAlchemy(res, parameters, function(){
-		console.log(pjson);
-	})
+	  waitAlchemy(req, parameters, function(){
+		    console.log(pjson);
+	 });
+
+
 });
