@@ -10,6 +10,11 @@ app.config(['$stateProvider', '$urlRouterProvider',
          templateUrl: 'Home/home.template.html',
          controller: 'homeController',
       })
+      .state('chatbox', {
+         url: '/chatbox',
+         templateUrl: 'Home/chatbox.html',
+         controller: 'postController',
+      })
       // .state('chatPage', {
       //    url: '/ChatPage',
       //    // TODO: templateUrl: 'ChatPage/',
