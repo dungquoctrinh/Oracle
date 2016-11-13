@@ -98,7 +98,7 @@ def predictionSentiment(company):
 
 def main(argv):
 
-    company = "Apple"
+    company = "Adobe"
     #format dd/mm/Y
 
     #API call has problem
