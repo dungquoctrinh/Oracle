@@ -12,32 +12,32 @@
               "entities": [
                 {
                   "sentiment": {
-                    "score": 0.287288994, 
+                    "score": 0.551352024, 
                     "type": "positive"
                   }
                 }, 
                 {
                   "sentiment": {
-                    "score": 0.487484992, 
+                    "score": 0.364715993, 
                     "type": "positive"
                   }
                 }, 
                 {
                   "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
+                    "score": 0.615662992, 
+                    "type": "positive"
                   }
                 }, 
                 {
                   "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
+                    "score": 0.506775975, 
+                    "type": "positive"
                   }
                 }, 
                 {
                   "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
+                    "score": 0.506776989, 
+                    "type": "positive"
                   }
                 }, 
                 {
@@ -59,24 +59,12 @@
                   }
                 }
               ], 
-              "title": "Apple gearing up to launch three new iPads in March 2017"
+              "title": "Deals: Become A Master Of The Microsoft Suite"
             }
           }
         }, 
-        "id": "MTYzMjE0MjA1Mzd8MTQ3ODk5NTIwMA", 
-        "timestamp": 1478995200
-      }, 
-      {
-        "source": {
-          "enriched": {
-            "url": {
-              "entities": [], 
-              "title": "The Apple Pan - Los Angeles Restaurant - MenuPages Burgers, Coffee & Tea, Desserts, Sandwiches Restaurant Search"
-            }
-          }
-        }, 
-        "id": "MTY0NTE1MzU5Njl8MTQ3ODk5NDcyNg", 
-        "timestamp": 1478994726
+        "id": "MTY0Mzg3NzMwNTB8MTQ3ODk5ODY2OQ", 
+        "timestamp": 1478998669
       }, 
       {
         "source": {
@@ -85,49 +73,13 @@
               "entities": [
                 {
                   "sentiment": {
-                    "score": 0.0497274995, 
-                    "type": "positive"
+                    "score": 0, 
+                    "type": "neutral"
                   }
                 }, 
                 {
                   "sentiment": {
-                    "score": 0.0845322981, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.111501001, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.367733985, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.374098003, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.453117013, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.381256014, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.213299006, 
+                    "score": 0.274967015, 
                     "type": "positive"
                   }
                 }, 
@@ -139,26 +91,8 @@
                 }, 
                 {
                   "sentiment": {
-                    "score": 0.237187997, 
+                    "score": 0.356344014, 
                     "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": -0.232999995, 
-                    "type": "negative"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": -0.214751005, 
-                    "type": "negative"
                   }
                 }, 
                 {
@@ -175,44 +109,8 @@
                 }, 
                 {
                   "sentiment": {
-                    "score": 0.381256014, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.488624007, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
                     "score": 0, 
                     "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.206587002, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.312014014, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": -0.232999995, 
-                    "type": "negative"
                   }
                 }, 
                 {
@@ -229,17 +127,203 @@
                 }, 
                 {
                   "sentiment": {
-                    "score": 0.382394999, 
+                    "score": 0.490855008, 
                     "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.382171988, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.44768101, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.490855992, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.274967015, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.274967015, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
                   }
                 }
               ], 
-              "title": "Apple is doubling down on open source - TechRepublic"
+              "title": "Charter Communications, Inc. (CHTR), Microsoft Corporation (MSFT) & More: Should You Follow Billionaire Jorge Paulo Lemann\u2019s 3G Capital Into These Bets?"
             }
           }
         }, 
-        "id": "MTYzOTk2NjQyNzF8MTQ3ODk5MjMyNA", 
-        "timestamp": 1478992324
+        "id": "MTYzNDUwNzk3MTR8MTQ3ODk4Njc3NQ", 
+        "timestamp": 1478986775
       }, 
       {
         "source": {
@@ -248,13 +332,73 @@
               "entities": [
                 {
                   "sentiment": {
-                    "score": 0.0592623986, 
+                    "score": 0.0890559033, 
                     "type": "positive"
                   }
                 }, 
                 {
                   "sentiment": {
-                    "score": -0.355778992, 
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": -0.588494003, 
+                    "type": "negative"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": -0.790350974, 
+                    "type": "negative"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.714658022, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": -0.418541014, 
+                    "type": "negative"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.663219988, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": -0.688866019, 
+                    "type": "negative"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.485709012, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.553735018, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": -0.418541014, 
                     "type": "negative"
                   }
                 }, 
@@ -266,19 +410,7 @@
                 }, 
                 {
                   "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.211480007, 
+                    "score": 0.289900988, 
                     "type": "positive"
                   }
                 }, 
@@ -290,61 +422,13 @@
                 }, 
                 {
                   "sentiment": {
-                    "score": 0.961100996, 
+                    "score": 0.503638029, 
                     "type": "positive"
                   }
                 }, 
                 {
                   "sentiment": {
-                    "score": 0.272843987, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.961100996, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.209176004, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": -0.294090986, 
-                    "type": "negative"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": -0.294090986, 
-                    "type": "negative"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.272843987, 
+                    "score": 0.503638029, 
                     "type": "positive"
                   }
                 }, 
@@ -355,12 +439,12 @@
                   }
                 }
               ], 
-              "title": "Troy Wolverton: Apple out of touch with both fans and average consumers"
+              "title": "The Missing Black Friday 2016 Ads: Amazon, Macy's, Microsoft, Home Depot and Lowe's"
             }
           }
         }, 
-        "id": "MTYzNzEwMTgzMDh8MTQ3ODk5MTYyOA", 
-        "timestamp": 1478991628
+        "id": "MTYzMjk3MjQ0MTJ8MTQ3ODk4MzkwMg", 
+        "timestamp": 1478983902
       }, 
       {
         "source": {
@@ -369,20 +453,32 @@
               "entities": [
                 {
                   "sentiment": {
-                    "score": 0.540739, 
+                    "score": 0.480414003, 
                     "type": "positive"
                   }
                 }, 
                 {
                   "sentiment": {
-                    "score": 0.327239007, 
+                    "score": -0.271591008, 
+                    "type": "negative"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.357764006, 
                     "type": "positive"
                   }
                 }, 
                 {
                   "sentiment": {
-                    "score": 0.216884002, 
-                    "type": "positive"
+                    "score": -0.0877197012, 
+                    "type": "negative"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": -0.289543003, 
+                    "type": "negative"
                   }
                 }, 
                 {
@@ -393,25 +489,7 @@
                 }, 
                 {
                   "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.437593997, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.437961012, 
+                    "score": 0.388173014, 
                     "type": "positive"
                   }
                 }, 
@@ -423,89 +501,23 @@
                 }, 
                 {
                   "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.362417996, 
+                    "score": 0.388173014, 
                     "type": "positive"
                   }
                 }, 
                 {
                   "sentiment": {
-                    "score": 0.437593997, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.437593997, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
+                    "score": -0.222462997, 
+                    "type": "negative"
                   }
                 }
               ], 
-              "title": "Apple may launch 3 iPad models in 2017 including a bezel free variant"
+              "title": "Kaspersky files anti-competitive complaints against Microsoft over third-party anti-virus software \u2013 WinBeta"
             }
           }
         }, 
-        "id": "MTYzODgwNzAxMzh8MTQ3ODk5MDI0NQ", 
-        "timestamp": 1478990245
+        "id": "MTYzNjg4MDQyODZ8MTQ3ODk3OTUzMQ", 
+        "timestamp": 1478979531
       }, 
       {
         "source": {
@@ -514,65 +526,143 @@
               "entities": [
                 {
                   "sentiment": {
-                    "score": 0.409088999, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.557758987, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.232057005, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.349637002, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.321148992, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": -0.358022988, 
+                    "score": -0.503396988, 
                     "type": "negative"
                   }
                 }, 
                 {
                   "sentiment": {
-                    "score": 0.295956999, 
+                    "score": 0.231592, 
                     "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.348073989, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.255706996, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": -0.559270978, 
+                    "type": "negative"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": -0.0341637991, 
+                    "type": "negative"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.616576016, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
                   }
                 }
               ], 
-              "title": "Full of (Even More) Cheer by Home Free on Apple Music"
+              "title": "Better Buy: Microsoft Corporation vs. Apple Inc."
             }
           }
         }, 
-        "id": "MTYzNzYxMTI4MjR8MTQ3ODk4ODA5MA", 
-        "timestamp": 1478988090
+        "id": "MTYzMDM4NzE4OTN8MTQ3ODk3OTQ5Mw", 
+        "timestamp": 1478979493
       }, 
       {
         "source": {
@@ -581,8 +671,68 @@
               "entities": [
                 {
                   "sentiment": {
-                    "score": -0.218748003, 
+                    "score": 0.334405005, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.488480985, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.72357899, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.651261985, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.824422002, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": -0.0589229986, 
                     "type": "negative"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.312449008, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.0909437984, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.518235028, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.458721995, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.737010002, 
+                    "type": "positive"
                   }
                 }, 
                 {
@@ -593,13 +743,25 @@
                 }, 
                 {
                   "sentiment": {
-                    "score": 0.0698572025, 
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.702017009, 
                     "type": "positive"
                   }
                 }, 
                 {
                   "sentiment": {
-                    "score": 0.0553561002, 
+                    "score": 0.27838701, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.616371989, 
                     "type": "positive"
                   }
                 }, 
@@ -611,14 +773,404 @@
                 }, 
                 {
                   "sentiment": {
-                    "score": -0.202288002, 
+                    "score": 0.411733001, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.538378, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.668227017, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.205075994, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.396899998, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.415794998, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.357048005, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.526887, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.219512001, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.79212302, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.274327993, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.449874997, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": -0.51086998, 
                     "type": "negative"
                   }
                 }, 
                 {
                   "sentiment": {
-                    "score": -0.202288002, 
+                    "score": 0.297423005, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.414453, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.451164007, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.383424997, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.440753996, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.460215002, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.304906994, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.255113989, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.430290997, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.320721, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.305099994, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.219512001, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.744457006, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.255113989, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.462471992, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.234860003, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.27838701, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.27838701, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.692565978, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": -0.328794003, 
                     "type": "negative"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.520006001, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.476678997, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.212371007, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": -0.322948992, 
+                    "type": "negative"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.430290997, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.484775007, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.300931007, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.428680003, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.27838701, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.27838701, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
                   }
                 }, 
                 {
@@ -628,12 +1180,12 @@
                   }
                 }
               ], 
-              "title": "Samsung: Settle With Apple? Hell, No!"
+              "title": "Enghouse Interactive Debuts New Attendant Console for Microsoft Skype for Business Cloud PBX at Microsoft Ignite 2016 | news.sys-con.com"
             }
           }
         }, 
-        "id": "MTYzNTE2MjcwMzd8MTQ3ODk4ODA2Nw", 
-        "timestamp": 1478988067
+        "id": "MTYyODU0NDc1MzR8MTQ3ODk3MDU5Mg", 
+        "timestamp": 1478970592
       }, 
       {
         "source": {
@@ -642,79 +1194,13 @@
               "entities": [
                 {
                   "sentiment": {
-                    "score": -0.35068801, 
+                    "score": -0.333122998, 
                     "type": "negative"
                   }
                 }, 
                 {
                   "sentiment": {
-                    "score": 0.453521013, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": -0.51098001, 
-                    "type": "negative"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": -0.0880175978, 
-                    "type": "negative"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.527746022, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.0263222009, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": -0.556715012, 
-                    "type": "negative"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.524089992, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.585337996, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": -0.245925993, 
+                    "score": -0.0108065996, 
                     "type": "negative"
                   }
                 }, 
@@ -726,257 +1212,17 @@
                 }, 
                 {
                   "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": -0.519052029, 
-                    "type": "negative"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.454209, 
+                    "score": 0.220874995, 
                     "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.500265002, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": -0.276299, 
-                    "type": "negative"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.403827012, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.554462016, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.416137993, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.525578976, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": -0.280526012, 
-                    "type": "negative"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.842707992, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": -0.360255003, 
-                    "type": "negative"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": -0.276299, 
-                    "type": "negative"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.363056988, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.842707992, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.645053029, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.422316015, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.422316015, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
                   }
                 }
               ], 
-              "title": "Apple AirPods are nowhere near as ridiculous as they look - Page 35"
+              "title": "Microsoft's canceled Nokia Moonraker smartwatch shown in hands-on video"
             }
           }
         }, 
-        "id": "MTYzODA2NTU1NjJ8MTQ3ODk4NzY4Mg", 
-        "timestamp": 1478987682
+        "id": "MTYyNzM4ODQ3MDJ8MTQ3ODk2OTQwOQ", 
+        "timestamp": 1478969409
       }, 
       {
         "source": {
@@ -985,49 +1231,13 @@
               "entities": [
                 {
                   "sentiment": {
-                    "score": -0.35068801, 
-                    "type": "negative"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.453521013, 
+                    "score": 0.533385992, 
                     "type": "positive"
                   }
                 }, 
                 {
                   "sentiment": {
-                    "score": -0.51098001, 
-                    "type": "negative"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": -0.0880175978, 
-                    "type": "negative"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.527746022, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.0263222009, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": -0.556715012, 
-                    "type": "negative"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.524089992, 
+                    "score": 0.763171017, 
                     "type": "positive"
                   }
                 }, 
@@ -1045,281 +1255,23 @@
                 }, 
                 {
                   "sentiment": {
-                    "score": 0.585337996, 
+                    "score": 0.533385992, 
                     "type": "positive"
                   }
                 }, 
                 {
                   "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": -0.245925993, 
-                    "type": "negative"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": -0.519052029, 
-                    "type": "negative"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.454209, 
+                    "score": 0.763171017, 
                     "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.500265002, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": -0.276299, 
-                    "type": "negative"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.403827012, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.554462016, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.416137993, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.525578976, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": -0.280526012, 
-                    "type": "negative"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.842707992, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": -0.360255003, 
-                    "type": "negative"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": -0.276299, 
-                    "type": "negative"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.363056988, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.842707992, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.645052016, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.422316015, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.422316015, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
                   }
                 }
               ], 
-              "title": "Apple AirPods are nowhere near as ridiculous as they look - Page 33"
+              "title": "Microsoft begins to embrace Chaseable Live Tiles on Windows 10 Mobile with MSN News \u2013 WinBeta"
             }
           }
         }, 
-        "id": "MTY0MDg5MzY2NjR8MTQ3ODk4NzAwNA", 
-        "timestamp": 1478987004
+        "id": "MTYzMDkwMzIwMzZ8MTQ3ODk2OTIxMg", 
+        "timestamp": 1478969212
       }, 
       {
         "source": {
@@ -1328,25 +1280,236 @@
               "entities": [
                 {
                   "sentiment": {
-                    "score": 0.403741002, 
+                    "score": 0.488480985, 
                     "type": "positive"
                   }
                 }, 
                 {
                   "sentiment": {
-                    "score": 0.403741002, 
+                    "score": 0.651261985, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.824422002, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": -0.0589230992, 
+                    "type": "negative"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.458721995, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.616371989, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.538378, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.668227017, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.632300973, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.357048005, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.79212302, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.274327993, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.297423005, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.411733001, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.305099994, 
                     "type": "positive"
                   }
                 }
               ], 
-              "title": "Apple\u2019s original logo looks nothing like it does today \u2014 here\u2019s how it\u2019s changed"
+              "title": "Enghouse Interactive Debuts New Attendant Console for Microsoft Skype for Business Cloud PBX at Microsoft Ignite 2016 | Marketwired ."
             }
           }
         }, 
-        "id": "MTYzOTI5ODUwNjJ8MTQ3ODk4NDE1OQ", 
-        "timestamp": 1478984159
+        "id": "MTYzMDgzMjc3MDV8MTQ3ODk2OTE2Mg", 
+        "timestamp": 1478969162
+      }, 
+      {
+        "source": {
+          "enriched": {
+            "url": {
+              "entities": [
+                {
+                  "sentiment": {
+                    "score": 0.121441998, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": -0.43019101, 
+                    "type": "negative"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.651773989, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.364551008, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.401246995, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.61423701, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.957460999, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.649848998, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }
+              ], 
+              "title": "Microsoft Surface Book i7: 3 things you need to know - Video"
+            }
+          }
+        }, 
+        "id": "MTYyMTYzNzU4NDl8MTQ3ODk2NTQxOQ", 
+        "timestamp": 1478965419
       }
     ], 
-    "next": "MTYxNDU1OTg5Nzc0MzcxNjUxfHwxOTg1OTgwODgyNTk2MjMyNzE2fHwyOTYwNzY1NTU1NjYwNTE5Njc0fHwzNjQzMjI4MzY0NDkyOTUzNjc1fHw0MDc3Mzg1MzcyNzcwODI4NzE1fHw1MzQwMTU0MDI0MjMzODIyNDY3fE1UWXpPVEk1T0RVd05qSjhNVFEzT0RrNE5ERTFPUXw1Mzc5NTE5NTI4OTUxMDIzODI0fHw1NDg1Mjk4MzcwMDEwNjE1MzQzfHw2MDUwNjUzNDU2NTU3MzQ1ODcwfHw3MDgzMzgzOTQzODc1MTY2NjYwfHw3NzQ2NTU4NDgwMTY4NTU2ODM0fHw4OTkwOTMyNDczMDc0NTcxMTI0fHw5Mjg4MTc1OTkzODM2NTUzMzg3fE1UWXpOVEUyTWpjd016ZDhNVFEzT0RrNE9EQTJOd3wxMDE4Nzk1Nzc5MjI4NzY0NzIyOHx8MTIzNTY2NTUzNzA4MjY5MDMwNjB8fDEyNjEyMjgzMzk5MTEzNDI4NzcxfE1UWXpPREEyTlRVMU5qSjhNVFEzT0RrNE56WTRNZ3wxNzA4NDkwNDM2NDQxNjcxMzc2NHxNVFl6TnpZeE1USTRNalI4TVRRM09EazRPREE1TUE"
+    "next": "MTYxNDU1OTg5Nzc0MzcxNjUxfHwxOTg1OTgwODgyNTk2MjMyNzE2fHwyOTYwNzY1NTU1NjYwNTE5Njc0fHwzNjQzMjI4MzY0NDkyOTUzNjc1fHw0MDc3Mzg1MzcyNzcwODI4NzE1fHw1MzQwMTU0MDI0MjMzODIyNDY3fE1UWXpNRGd6TWpjM01EVjhNVFEzT0RrMk9URTJNZ3w1Mzc5NTE5NTI4OTUxMDIzODI0fHw1NDg1Mjk4MzcwMDEwNjE1MzQzfHw2MDUwNjUzNDU2NTU3MzQ1ODcwfHw3MDgzMzgzOTQzODc1MTY2NjYwfHw3NzQ2NTU4NDgwMTY4NTU2ODM0fHw4OTkwOTMyNDczMDc0NTcxMTI0fHw5Mjg4MTc1OTkzODM2NTUzMzg3fE1UWXlNVFl6TnpVNE5EbDhNVFEzT0RrMk5UUXhPUXwxMDE4Nzk1Nzc5MjI4NzY0NzIyOHx8MTIzNTY2NTUzNzA4MjY5MDMwNjB8fDEyNjEyMjgzMzk5MTEzNDI4NzcxfE1UWXlPRFUwTkRjMU16UjhNVFEzT0RrM01EVTVNZ3wxNzA4NDkwNDM2NDQxNjcxMzc2NHxNVFl5TnpNNE9EUTNNREo4TVRRM09EazJPVFF3T1E"
   }
 }
