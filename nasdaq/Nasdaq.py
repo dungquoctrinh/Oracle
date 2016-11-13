@@ -78,8 +78,8 @@ def parseData(url,val):
             return (key + " "+ "Difference: " + str(float(first)-float(final)))
 
 def main(argv):
-    if (len(argv) < 2):
-        print("Usage : Python Nasdaq.py data_dir")
+    if (len(argv) < 4):
+        print("Usage : Python Nasdaq.py data_dir Company date")
         return
 
     data_dir = argv[1]
@@ -89,30 +89,28 @@ def main(argv):
         #text = data_f.read()
 
     #getData(url)
-    while (True):
-        x = input("Type the company name(q to quit): ")
-        if x == 'q':
-            break
-        date = input("Type the date(q to quit): ")
-        if date == 'q':
-            break
 
-        if(x=='APPLE'):
-            comp='AAPL'
-        elif (x == 'AMAZON'):
-            comp = 'AMZN'
-        elif (x == 'ADOBE'):
-            comp = 'ADBE'
-        elif (x == 'MICROSOFT'):
-            comp = 'MSFT'
-        elif (x == 'FACEBOOK'):
-            comp = 'FB'
+    x=argv[2]
+    date=argv[3]
 
-        str_NASDAQ = parseData(data_dir +"/"+x+"/"+comp+"_NASDAQ.json", date)
+    if(x=='APPLE'):
+        comp='AAPL'
+    elif (x == 'AMAZON'):
+        comp = 'AMZN'
+    elif (x == 'ADOBE'):
+        comp = 'ADBE'
+    elif (x == 'MICROSOFT'):
+        comp = 'MSFT'
+    elif (x == 'FACEBOOK'):
+        comp = 'FB'
+
+    str_NASDAQ = parseData(data_dir +"/"+x+"/"+comp+"_NASDAQ.json", date)
         #str_SENTIMENT = get_sentiment(comp,date,data_dir +"/"+x+"/"+comp++"_IBM.json")
 
         #print(str_NASDAQ+"sentiment: "+str_SENTIMENT)
-        print(str_NASDAQ)
+    f=open('output.txt','w')
+    f.write(str_NASDAQ)
+
 if __name__ == "__main__":
     main(sys.argv)
 
