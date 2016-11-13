@@ -7,7 +7,7 @@ var pjson = null;
 var dat = "";
 
 var alchemy_language = watson.alchemy_language({
-  api_key: '9a207df61cd0e150376dc6a36c6615f9ff24f69b'
+  api_key: '2190f450728492113ce4e5b880a72eefbea73308'
 });
 
 // Static paths to be served like index.html and all client side js
@@ -32,12 +32,12 @@ app.get('/post', function(req, res) {
 
 app.get('/subm', function(req, res) {
 	var parameters = {
-				  extract: 'keywords',
+				  extract: 'entities,keywords',
 				  sentiment: 1,
 				  maxRetrieve: 1,
 				  url: "http://finance.ngrok.io/post"
 				};
-	res.send(alchemy_language.combined(parameters, function (err, response) {
-	   console.log(JSON.stringify(response, null, 2));
-	}));
+	alchemy_language.combined(parameters, function (err, response) {
+	   res.send(JSON.stringify(response, null, 2));
+	});
 });

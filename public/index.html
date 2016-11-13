@@ -20,9 +20,15 @@
                 <div class="col-md-12" id="chatbox">
                   <div id="scrollable">
                     <div ng-repeat="post in posts" id={{post.id}}>
-                      <div class="cpost">
-                        {{post.text}}
+                      <div ng-repeat="botpost in botPosts">
+                        <div class="cpost">
+                          {{post.text}}
+                        </div>
+                        <div class="bpost">
+                          {{botpost.data}}
+                        </div>
                       </div>
+                      
                     </div>
                   </div>
                 </div>
