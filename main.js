@@ -31,7 +31,6 @@ app.get('/post', function(req, res) {
 	res.render('post.jade', { message: dat });
 });
 
-<<<<<<< HEAD
 var waitAlchemy = function(req, params, callback){
   //console.warn("sdfsdf");
   pjson = "";
