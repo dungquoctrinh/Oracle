@@ -30,7 +30,7 @@ app.post('*', function(req, res) {
 				  url: html
 				};
 	alchemy_language.combined(parameters, function (err, response) {
-	  //console.log(JSON.stringify(response, null, 2));
+	  console.log(JSON.stringify(response, null, 2));
 	});
 	res.send('success');
 });
