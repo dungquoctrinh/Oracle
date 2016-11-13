@@ -75,7 +75,7 @@ def parseData(url,val):
                             final=v
             #print(key)
             #print("Difference: ",float(first)-float(final))
-            return (key + " "+ "Difference: " + str(float(first)-float(final)))
+            return (key + " "+ str(float(first)))
 
 def main(argv):
     if (len(argv) < 4):
