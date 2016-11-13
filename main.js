@@ -14,7 +14,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static('extra'));
 app.use(bodyParser.json());
 app.set('view engine', 'pug');
-app.set('views', __dirname+'/views');
+app.set('views', __dirname+'\\views\\');
 
 app.listen(process.env.NODE_PORT || 3000, process.env.NODE_IP || 'localhost',
 function () {
@@ -23,7 +23,7 @@ function () {
 
 app.post('*', function(req, res) {
 	var data = req.body.out;
-	res.render('post', { message: data });
+	res.render('post.jade', { message: data });
 	var parameters = {
 				  extract: 'sentiment,keywords',
 				  sentiment: 1,
@@ -33,5 +33,5 @@ app.post('*', function(req, res) {
 	alchemy_language.combined(parameters, function (err, response) {
 	  console.log(JSON.stringify(response, null, 2));
 	});
-	res.send('success');
+	//res.send('success');
 });
