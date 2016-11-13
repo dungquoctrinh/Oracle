@@ -4,7 +4,7 @@ var watson = require('watson-developer-cloud');
 var bodyParser = require('body-parser');
 var app = express();
 var pjson = null;
-var data = "";
+var dat = "";
 
 var alchemy_language = watson.alchemy_language({
   api_key: '9a207df61cd0e150376dc6a36c6615f9ff24f69b'
@@ -30,24 +30,14 @@ app.get('/post', function(req, res) {
 	res.render('post.jade', { message: dat });
 });
 
-app.waitAlchemy = function(res, params, callback){
-	alchemy_language.combined(parameters, function (err, response) {
-	   console.log(JSON.stringify(response, null, 2));
-	});
-	// if (pjson == null) {
-	// 	res.sendStatus(400);
-	// }
-	// callback();
-}
-
-app.get('/', function(req, res) {
+app.get('/subm', function(req, res) {
 	var parameters = {
-				  extract: 'entities, keywords',
+				  extract: 'keywords',
 				  sentiment: 1,
 				  maxRetrieve: 1,
 				  url: "http://finance.ngrok.io/post"
 				};
-	this.waitAlchemy(res, parameters, function(){
-		console.log(pjson);
-	})
+	res.send(alchemy_language.combined(parameters, function (err, response) {
+	   console.log(JSON.stringify(response, null, 2));
+	}));
 });

@@ -17,15 +17,15 @@ app.controller('homeController', function($scope, $http) {
 
 		$http.post('/', {'out': $scope.ctext})
 		.then(function(res){
-			console.log(JSON.stringify(res));
+			// console.log(JSON.stringify(res));
 		});
 
 		$http.get('/post').then(function(res) {
-			console.log(JSON.stringify(res));
+			// console.log(JSON.stringify(res));
 		});
 
-		$http.get('/').then(function(res) {
-			console.log(JSON.stringify(res));
+		$http.get('/subm').then(function(res) {
+			console.log(JSON.stringify(res, null, 2));
 		});
 
 		$scope.ctext = '';
