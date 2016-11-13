@@ -34,21 +34,18 @@ app.get('/post', function(req, res) {
 	res.render('post.jade', { message: dat });
 });
 
-var waitAlchemy = function(req, params, callback){
+var waitAlchemy = function(res, params, callback){
   //console.warn("sdfsdf");
-  pjson = "";
+  pjson = null;
 	alchemy_language.combined(params, function (err, response) {
 	   pjson = JSON.stringify(response, null, 2);
 	});
+	console.log(pjson);
 	if (pjson == null) {
 	 	res.sendStatus(400);
 	}
 	callback();
 };
-
-app.get('/alchemy', function(req, res) {
-
-});
 
 app.get('/subm', function(req, res) {
 	var parameters = {
@@ -57,7 +54,7 @@ app.get('/subm', function(req, res) {
 				  maxRetrieve: 1,
 				  url: "http://finance.ngrok.io/post"
 				};
-	  waitAlchemy(req, parameters, function(){
+	  waitAlchemy(res, parameters, function(){
 	  	var jsonp = JSON.parse(pjson);
 	  	var cname = jsonp.entities[0].name;
 	  	var spawn = execsync('child_process').spawn;

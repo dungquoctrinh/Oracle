@@ -26,10 +26,6 @@ app.controller('homeController', function($scope, $http) {
 			//console.log(JSON.stringify(res));
 		});
 
-		$http.get('/alchemy').then(function(res) {
-			// console.log(JSON.stringify(res));
-		});
-
 		$http.get('/post').then(function(res) {
 			// console.log(JSON.stringify(res));
 		});
