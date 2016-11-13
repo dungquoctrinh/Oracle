@@ -88,9 +88,11 @@ if __name__ == "__main__":
         allJsonStock.update(startSpider(tree.getroot()));
     '''
 
-    tree = xmlParser.parse(os.path.join(path, "AAPL_10.xml"))
-    allJsonStock.update(startSpider(tree.getroot()));
-    with open("../Completed JSON/AAPL_OUT.json", "w") as outfile:
+    fb_path = path + "FB/"
+    for file in os.listdir(fb_path):
+        tree = xmlParser.parse(os.path.join(fb_path, file))
+        allJsonStock.update(startSpider(tree.getroot()));
+    with open("../Completed JSON/FB_OUT.json", "w") as outfile:
         outfile.write(json.dumps(allJsonStock, sort_keys=True, indent=4, separators=(',', ': ')));
 
     adbe_path = path + "ADBE/"
