@@ -5,8 +5,12 @@ import json
 
 def get_sentiment(name, date):
     #day = str(time.mktime(datetime.datetime.strptime(date, "%d/%m/%Y").timetuple())).split(".")[0]
-    day = int(time.mktime(datetime.datetime.strptime(date, "%d/%m/%Y").timetuple()))
-    print "day" + str(day)
+    CONST = 28800
+    DAY = 86400 #24 hour frame
+    day = int(time.mktime(datetime.datetime.strptime(date, "%d/%m/%Y").timetuple())) - CONST
+
+    #convert from string to timestamp
+
     score = 0
     count = 0
 
@@ -25,7 +29,7 @@ def get_sentiment(name, date):
         data = json.load(data_file)
 
     for x in data['result']['docs']:
-        if x['timestamp'] == day:
+        if x['timestamp'] - DAY <= day and day <= x['timestamp'] + DAY :
             for y in x['source']['enriched']['url']['entities']:
                 score += (y['sentiment']['score'])
                 count+=1
