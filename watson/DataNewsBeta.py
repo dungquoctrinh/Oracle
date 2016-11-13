@@ -48,17 +48,17 @@ def parseNews(name):
     count = 0
 
     if name == "AAPL":
-        open_path = '/home/kid/Github/Oracle/watson/' + "apple.json"
+        open_path = '/home/kid/Github/Oracle/watson/apple/' + "apple.json"
     elif name == "IBM":
-        open_path = '/home/kid/Github/Oracle/watson/' + "ibm.json"
+        open_path = '/home/kid/Github/Oracle/watson/ibm/' + "ibm.json"
     elif name == "AMZN":
-        open_path = '/home/kid/Github/Oracle/watson/' + "amazon.json"
+        open_path = '/home/kid/Github/Oracle/watson/amazon/' + "amazon.json"
     elif name == "VRX":
-        open_path = '/home/kid/Github/Oracle/watson/' + "valeant.json"
+        open_path = '/home/kid/Github/Oracle/watson/valeant/' + "valeant.json"
     elif name == "FIT":
-        open_path = '/home/kid/Github/Oracle/watson/' + "fitbit.json"
+        open_path = '/home/kid/Github/Oracle/watson/fitbit/' + "fitbit.json"
     elif name == "UWTI":
-        open_path = '/home/kid/Github/Oracle/watson/' + "oil.json"
+        open_path = '/home/kid/Github/Oracle/watson/oil/' + "oil.json"
 
 
     with open(open_path,'r') as data_file:
@@ -114,7 +114,7 @@ def main(argv):
 
     predictionSentiment(company)
     print ("Complete Data Collecting")
-    #print parseNews("IBM")
+    print parseNews("AMZN")
 
 if __name__ == "__main__":
     main(sys.argv)
