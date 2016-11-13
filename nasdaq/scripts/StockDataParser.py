@@ -79,10 +79,11 @@ def getLow(child):
 
 if __name__ == "__main__":
     allJsonStock = {}
-    path = "../3monthsData/"
+    # path = "../3monthsData/"
+    path = "../3monthsData2/"
     for file in os.listdir(path):
         tree = xmlParser.parse(os.path.join(path, file))
         allJsonStock.update(startSpider(tree.getroot()));
 
-    with open("../Completed JSON/Stock7-1-2016To10-28-2016.json", "w") as outfile:
+    with open("../Completed JSON/Stock9-1-2016To11-11-2016.json", "w") as outfile:
         outfile.write(json.dumps(allJsonStock, sort_keys=True, indent=4, separators=(',', ': ')));
