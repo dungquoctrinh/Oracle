@@ -2,6 +2,7 @@ var express = require('express');
 var path = require('path');
 var watson = require('watson-developer-cloud');
 var bodyParser = require('body-parser');
+var execsync = require('sync-exec');
 var app = express();
 var pjson = null;
 var dat = "";
@@ -35,7 +36,7 @@ var waitAlchemy = function(req, params, callback){
   //console.warn("sdfsdf");
   pjson = "";
 	alchemy_language.combined(params, function (err, response) {
-	   pjson = JSON.stringify(response, null, 2));
+	   pjson = JSON.stringify(response, null, 2);
 	});
 	if (pjson == null) {
 	 	res.sendStatus(400);
@@ -53,6 +54,7 @@ app.get('/subm', function(req, res) {
 				  url: "http://finance.ngrok.io/post"
 				};
 	  waitAlchemy(req, parameters, function(){
-		    console.log(pjson);
+	  	var spawn = execsync('child_process').spawn;
+	  	var proc = spawn('python', ['nasdaq/Nasdaq.py', 'nasdaq/data_dir']);
 	 });
 });
