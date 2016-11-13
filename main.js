@@ -3,6 +3,7 @@ var path = require('path');
 var watson = require('watson-developer-cloud');
 var bodyParser = require('body-parser');
 var execsync = require('sync-exec');
+var fs = require('fs');
 var app = express();
 var pjson = null;
 var dat = "";
@@ -14,6 +15,7 @@ var alchemy_language = watson.alchemy_language({
 // Static paths to be served like index.html and all client side js
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(express.static('extra'));
+app.use(express.static('nasdaq'));
 app.use(bodyParser.json());
 
 app.set('view engine', 'pug');
@@ -46,6 +48,8 @@ var waitAlchemy = function(req, params, callback){
 
 app.get('/alchemy', function(req, res) {
 
+});
+
 app.get('/subm', function(req, res) {
 	var parameters = {
 				  extract: 'entities,keywords',
@@ -54,7 +58,16 @@ app.get('/subm', function(req, res) {
 				  url: "http://finance.ngrok.io/post"
 				};
 	  waitAlchemy(req, parameters, function(){
+	  	var jsonp = JSON.parse(pjson);
+	  	var cname = jsonp.entities[0].name;
 	  	var spawn = execsync('child_process').spawn;
-	  	var proc = spawn('python', ['nasdaq/Nasdaq.py', 'nasdaq/data_dir']);
+	  	var proc = spawn('python', ['nasdaq/Nasdaq.py', 'nasdaq/data_dir', cname, "09/13/2016"]);
+	  	proc.kill();
+	  	fs.readFile('nasdaq/output.txt', 'utf8', function(err, data) {
+	  		if (err) {
+	  			console.log(err);
+	  		}
+	  		res.send(data);
+	  	});
 	 });
 });
