@@ -4,6 +4,7 @@ var watson = require('watson-developer-cloud');
 var bodyParser = require('body-parser');
 var app = express();
 var pjson = {};
+var execSync = require('exec-sync'); 
 
 var alchemy_language = watson.alchemy_language({
   api_key: '9a207df61cd0e150376dc6a36c6615f9ff24f69b'
@@ -20,9 +21,11 @@ function () {
 });
 
 app.post('*', function(req, res) {
-	console.log(req);
-	var html = "http://www.google.com"
-
+	var data = req.body.out;
+	var dataHTML = "<plaintext>" + data + "</plaintext>";
+	console.log(data);
+	var user = execSync('java HTMLRenderer.java \"'+ dataHTML + '\"');
+	var html = "http://finance.ngrok.io/extra/render.html";
 	var parameters = {
 				  extract: 'sentiment,keywords',
 				  sentiment: 1,
