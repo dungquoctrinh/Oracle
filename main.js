@@ -4,7 +4,6 @@ var watson = require('watson-developer-cloud');
 var bodyParser = require('body-parser');
 var app = express();
 var pjson = {};
-var execSync = require('exec-sync'); 
 
 var alchemy_language = watson.alchemy_language({
   api_key: '9a207df61cd0e150376dc6a36c6615f9ff24f69b'
@@ -12,8 +11,9 @@ var alchemy_language = watson.alchemy_language({
 
 // Static paths to be served like index.html and all client side js
 app.use(express.static(path.join(__dirname, 'public')));
-app.use(express.static('extra'))
-app.use(bodyParser.json())
+app.use(express.static('extra'));
+app.use(bodyParser.json());
+app.set('view engine', 'pug')
 
 app.listen(process.env.NODE_PORT || 3000, process.env.NODE_IP || 'localhost',
 function () {
@@ -22,15 +22,12 @@ function () {
 
 app.post('*', function(req, res) {
 	var data = req.body.out;
-	var dataHTML = "<plaintext>" + data + "</plaintext>";
-	console.log(data);
-	var user = execSync('java HTMLRenderer.java \"'+ dataHTML + '\"');
-	var html = "http://finance.ngrok.io/extra/render.html";
+	res.render('post', { message: data });
 	var parameters = {
 				  extract: 'sentiment,keywords',
 				  sentiment: 1,
 				  maxRetrieve: 1,
-				  url: html
+				  url: "http://finance.ngrok.io/post"
 				};
 	alchemy_language.combined(parameters, function (err, response) {
 	  console.log(JSON.stringify(response, null, 2));
