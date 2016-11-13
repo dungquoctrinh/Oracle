@@ -22,6 +22,7 @@ form {
 	position: absolute;
 	bottom: 0px;
 	right: 0px;
+	width: 100%;
 }
 
 .cpost {
@@ -32,7 +33,19 @@ form {
 	border-radius: 6px;
 	margin: 10px;
 	float: right;
-	clear: right;
+	clear: both;
+	max-width: 90%;
+}
+
+.bpost {
+	background-color: gray;
+	color: darkgray;
+	padding: 10px;
+	border: 1px solid gray;
+	border-radius: 6px;
+	margin: 10px;
+	float:left;
+	clear:both;
 	max-width: 90%;
 }
 

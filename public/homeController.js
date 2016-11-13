@@ -4,6 +4,7 @@ app.controller('homeController', function($scope, $http) {
 	var flag = 0;
 	var iheight = -1;
 	$scope.posts = [];
+	$scope.botPosts = [];
 	$scope.chattext = undefined;
 
 	$scope.submitPost = function() {
@@ -26,7 +27,16 @@ app.controller('homeController', function($scope, $http) {
 		});
 
 		$http.get('/alchemy').then(function(res) {
-			//console.log(JSON.stringify(res));
+			// console.log(JSON.stringify(res));
+		});
+
+		$http.get('/post').then(function(res) {
+			// console.log(JSON.stringify(res));
+		});
+
+		$http.get('/subm').then(function(res) {
+			$scope.botPosts.push({id: $scope.botPosts.length + 1, data: res.data});
+			console.log(JSON.stringify(res, null, 2));
 		});
 
 		$scope.ctext = '';

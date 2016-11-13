@@ -12,7 +12,7 @@
               "entities": [
                 {
                   "sentiment": {
-                    "score": -0.236338004, 
+                    "score": -0.422632009, 
                     "type": "negative"
                   }
                 }, 
@@ -24,23 +24,41 @@
                 }, 
                 {
                   "sentiment": {
-                    "score": 0.435263008, 
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.528123021, 
                     "type": "positive"
                   }
                 }, 
                 {
                   "sentiment": {
-                    "score": 0.435263008, 
-                    "type": "positive"
+                    "score": 0, 
+                    "type": "neutral"
                   }
                 }
               ], 
-              "title": "No, you weren\u2019t seeing things Facebook momentarily thought..."
+              "title": "Amazon agency driver 'fell asleep at wheel' - BBC News"
             }
           }
         }, 
-        "id": "MTY0ODk0NzQ4NTB8MTQ3OTAwMDU5NA", 
-        "timestamp": 1479000594
+        "id": "MTY2MjcxMTI3ODV8MTQ3OTAzMzUxOA", 
+        "timestamp": 1479033518
       }, 
       {
         "source": {
@@ -49,31 +67,19 @@
               "entities": [
                 {
                   "sentiment": {
-                    "score": -0.107159004, 
+                    "score": -0.0972933993, 
                     "type": "negative"
                   }
                 }, 
                 {
                   "sentiment": {
-                    "score": -0.40318501, 
+                    "score": -0.476906002, 
                     "type": "negative"
                   }
                 }, 
                 {
                   "sentiment": {
-                    "score": 0.295558006, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.208579004, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": -0.40565899, 
+                    "score": -0.460381001, 
                     "type": "negative"
                   }
                 }, 
@@ -85,61 +91,13 @@
                 }, 
                 {
                   "sentiment": {
-                    "score": -0.304868996, 
-                    "type": "negative"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": -0.366099, 
-                    "type": "negative"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": -0.444296986, 
-                    "type": "negative"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": -0.448148996, 
-                    "type": "negative"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.66286999, 
+                    "score": 0.472822994, 
                     "type": "positive"
                   }
                 }, 
                 {
                   "sentiment": {
-                    "score": 0.628745973, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": -0.304868996, 
-                    "type": "negative"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": -0.304868996, 
-                    "type": "negative"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.628745973, 
+                    "score": 0.257587999, 
                     "type": "positive"
                   }
                 }, 
@@ -151,8 +109,26 @@
                 }, 
                 {
                   "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
+                    "score": 0.397570997, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": -0.566074014, 
+                    "type": "negative"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.384193003, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.419743001, 
+                    "type": "positive"
                   }
                 }, 
                 {
@@ -163,14 +139,20 @@
                 }, 
                 {
                   "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
+                    "score": 0.320766002, 
+                    "type": "positive"
                   }
                 }, 
                 {
                   "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
+                    "score": -0.248429, 
+                    "type": "negative"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.320766002, 
+                    "type": "positive"
                   }
                 }, 
                 {
@@ -180,12 +162,12 @@
                   }
                 }
               ], 
-              "title": "Zuckerberg among Facebook users mistakenly declared \u00b4dead\u00b4 | World | thenews.com.pk"
+              "title": "Amazon fixes glitch that kept Korea-based servicemembers from placing orders"
             }
           }
         }, 
-        "id": "MTY0NDU4NDgwMzh8MTQ3ODk5OTY5Mg", 
-        "timestamp": 1478999692
+        "id": "MTY1ODg0NDU2MDl8MTQ3OTAzMjAyNQ", 
+        "timestamp": 1479032025
       }, 
       {
         "source": {
@@ -194,74 +176,8 @@
               "entities": [
                 {
                   "sentiment": {
-                    "score": 0.297010988, 
+                    "score": 0.447427988, 
                     "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.554551005, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.583319008, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": -0.272581995, 
-                    "type": "negative"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.583319008, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.234341994, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.568669021, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
                   }
                 }, 
                 {
@@ -271,12 +187,12 @@
                   }
                 }
               ], 
-              "title": "Facebook, Inc. Is Attracting New Advertisers in Droves"
+              "title": "Amazon Cements 'Prestige TV' Status With New Matthew Weiner Series"
             }
           }
         }, 
-        "id": "MTY0NTMwMDE5ODB8MTQ3ODk5OTY0OQ", 
-        "timestamp": 1478999649
+        "id": "MTY2NDA1NjE4MTF8MTQ3OTAzMDA5NA", 
+        "timestamp": 1479030094
       }, 
       {
         "source": {
@@ -285,7 +201,91 @@
               "entities": [
                 {
                   "sentiment": {
-                    "score": 0.529576004, 
+                    "score": 0.454914004, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.404915988, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.315360993, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.413630992, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.634617984, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.765596986, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.570569992, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": -0.509271979, 
+                    "type": "negative"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.302598, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.351597011, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.503638029, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.204472005, 
                     "type": "positive"
                   }
                 }, 
@@ -303,8 +303,14 @@
                 }, 
                 {
                   "sentiment": {
-                    "score": 0.529576004, 
-                    "type": "positive"
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
                   }
                 }, 
                 {
@@ -321,8 +327,14 @@
                 }, 
                 {
                   "sentiment": {
-                    "score": 0.529576004, 
-                    "type": "positive"
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
                   }
                 }, 
                 {
@@ -332,12 +344,12 @@
                   }
                 }
               ], 
-              "title": "Single mom faces jail time after selling ceviche on Facebook"
+              "title": "Amazon Black Friday Deal on Lenovo Touchscreen Chromebook Up for Grabs Sunday"
             }
           }
         }, 
-        "id": "MTY0NDQzODMzNTN8MTQ3ODk5OTUxOA", 
-        "timestamp": 1478999518
+        "id": "MTY2MDMwMjQ2NjF8MTQ3OTAyODUzNA", 
+        "timestamp": 1479028534
       }, 
       {
         "source": {
@@ -346,8 +358,26 @@
               "entities": [
                 {
                   "sentiment": {
-                    "score": 0.319231004, 
+                    "score": 0.189502001, 
                     "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.555333972, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": -0.459425002, 
+                    "type": "negative"
                   }
                 }, 
                 {
@@ -405,12 +435,121 @@
                   }
                 }
               ], 
-              "title": "Larne\u2019s Viking ghost recalled on Facebook"
+              "title": "Amazon Fire HD Kids Edition includes 2-year replacement guarantee"
             }
           }
         }, 
-        "id": "MTY0NDc4OTM1NTF8MTQ3ODk5ODkwNg", 
-        "timestamp": 1478998906
+        "id": "MTY1NzQ4ODcxNDh8MTQ3OTAxNjM5NQ", 
+        "timestamp": 1479016395
+      }, 
+      {
+        "source": {
+          "enriched": {
+            "url": {
+              "entities": [
+                {
+                  "sentiment": {
+                    "score": -0.50999701, 
+                    "type": "negative"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": -0.32833299, 
+                    "type": "negative"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": -0.466641992, 
+                    "type": "negative"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": -0.325197995, 
+                    "type": "negative"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": -0.525632024, 
+                    "type": "negative"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": -0.525632024, 
+                    "type": "negative"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }
+              ], 
+              "title": "Judge Orders Amazon Refunds For Children\u2019s In-App Purchases"
+            }
+          }
+        }, 
+        "id": "MTY0NzMwOTc3MzF8MTQ3OTAwOTgwMg", 
+        "timestamp": 1479009802
       }, 
       {
         "source": {
@@ -422,44 +561,14 @@
                     "score": 0, 
                     "type": "neutral"
                   }
-                }, 
-                {
-                  "sentiment": {
-                    "score": -0.135149002, 
-                    "type": "negative"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": -0.487443, 
-                    "type": "negative"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": -0.039582599, 
-                    "type": "negative"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
                 }
               ], 
-              "title": "This bug on Facebook \u2018killed' Mark Zuckerberg, other users"
+              "title": "It\u2019s a bargain on Amazon \u2014 or is it?"
             }
           }
         }, 
-        "id": "MTY0NDYxOTI1Mjl8MTQ3ODk5ODczOA", 
-        "timestamp": 1478998738
+        "id": "MTY1MTU5Njk2ODV8MTQ3OTAwNTc5Ng", 
+        "timestamp": 1479005796
       }, 
       {
         "source": {
@@ -468,6 +577,90 @@
               "entities": [
                 {
                   "sentiment": {
+                    "score": 0.527715981, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.611863971, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.233215004, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.536360025, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.482097, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.482097, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.390877008, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.482097, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
                     "score": 0, 
                     "type": "neutral"
                   }
@@ -479,12 +672,12 @@
                   }
                 }
               ], 
-              "title": "Man started fire to draw attention to his Facebook page, police say"
+              "title": "Buy the cloud-centric Nextbit Robin for just $169.99 from Amazon"
             }
           }
         }, 
-        "id": "MTY0MzU3MTY3NDF8MTQ3ODk5ODMwMw", 
-        "timestamp": 1478998303
+        "id": "MTY0NDQxOTYzMjJ8MTQ3OTAwNDIxMw", 
+        "timestamp": 1479004213
       }, 
       {
         "source": {
@@ -493,104 +686,1142 @@
               "entities": [
                 {
                   "sentiment": {
-                    "score": -0.461643994, 
-                    "type": "negative"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.846490026, 
+                    "score": 0.497853994, 
                     "type": "positive"
                   }
                 }, 
                 {
                   "sentiment": {
-                    "score": 0.166020006, 
+                    "score": 0.706354022, 
                     "type": "positive"
                   }
                 }, 
                 {
                   "sentiment": {
-                    "score": -0.405676007, 
-                    "type": "negative"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.722027004, 
+                    "score": 0.065702498, 
                     "type": "positive"
                   }
                 }, 
                 {
                   "sentiment": {
-                    "score": -0.39468801, 
+                    "score": -0.586127996, 
                     "type": "negative"
                   }
                 }, 
                 {
                   "sentiment": {
-                    "score": -0.329117, 
-                    "type": "negative"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": -0.444296986, 
-                    "type": "negative"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": -0.329117, 
-                    "type": "negative"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": -0.448148996, 
-                    "type": "negative"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": -0.39468801, 
-                    "type": "negative"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.670939982, 
+                    "score": 0.31090501, 
                     "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.590749979, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": -0.322889, 
+                    "type": "negative"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": -0.360639006, 
+                    "type": "negative"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.638808012, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": -0.460206985, 
+                    "type": "negative"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.380203009, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": -0.262935013, 
+                    "type": "negative"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.38428399, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.265307009, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.735460997, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.444972008, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.706354022, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.534332991, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.585101008, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": -0.675396979, 
+                    "type": "negative"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.625562012, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": -0.538627028, 
+                    "type": "negative"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.499087006, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.690492988, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": -0.491573006, 
+                    "type": "negative"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.260475993, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.598879993, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.284132004, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.373560995, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.362367004, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": -0.360639006, 
+                    "type": "negative"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": -0.494138986, 
+                    "type": "negative"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.212917, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.242006004, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": -0.60075599, 
+                    "type": "negative"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": -0.60075599, 
+                    "type": "negative"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.604637027, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": -0.206180006, 
+                    "type": "negative"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.882691026, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.373560995, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.432265013, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.300009996, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.634872019, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.302652001, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.317963988, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": -0.561631978, 
+                    "type": "negative"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.275029987, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.272540987, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.740594983, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.653770983, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.633391976, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.224173993, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.302652001, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": -0.360639006, 
+                    "type": "negative"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.215995997, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": -0.218657002, 
+                    "type": "negative"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.686384976, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.882691026, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": -0.330942988, 
+                    "type": "negative"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.674594998, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.409727991, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.303180009, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": -0.60075599, 
+                    "type": "negative"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.300085992, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.201109007, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": -0.233992994, 
+                    "type": "negative"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.436439008, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.52816999, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.706354022, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": -0.681510985, 
+                    "type": "negative"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.736244023, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.504725993, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": -0.218657002, 
+                    "type": "negative"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": -0.486203015, 
+                    "type": "negative"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.373560995, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": -0.320250988, 
+                    "type": "negative"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.638580978, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.488692999, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.713967979, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.273779988, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.740594983, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.803025007, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.337859005, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.273779988, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.262165993, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.284132004, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.732052982, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.526584029, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.304764986, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.488692999, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.690491974, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.215347007, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": -0.589801013, 
+                    "type": "negative"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": -0.296409011, 
+                    "type": "negative"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0.283643991, 
+                    "type": "positive"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": -0.365595013, 
+                    "type": "negative"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
+                  }
+                }, 
+                {
+                  "sentiment": {
+                    "score": 0, 
+                    "type": "neutral"
                   }
                 }, 
                 {
@@ -624,12 +1855,12 @@
                   }
                 }
               ], 
-              "title": "Facebook accidentally declares its founder, Mark Zuckerberg, dead"
+              "title": "Best Movies on Amazon Instant Video of All Time"
             }
           }
         }, 
-        "id": "MTY0MDcyODQ2Nzh8MTQ3ODk5NzQ5OQ", 
-        "timestamp": 1478997499
+        "id": "MTY0MzkzMzkxMjB8MTQ3ODk5ODc5NA", 
+        "timestamp": 1478998794
       }, 
       {
         "source": {
@@ -638,152 +1869,13 @@
               "entities": [
                 {
                   "sentiment": {
-                    "score": 0.447254986, 
+                    "score": 0.364762008, 
                     "type": "positive"
                   }
                 }, 
                 {
                   "sentiment": {
-                    "score": 0.586381018, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.549893022, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.311372012, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.311372012, 
-                    "type": "positive"
-                  }
-                }
-              ], 
-              "title": "Facebook testing chat rooms feature for Messenger"
-            }
-          }
-        }, 
-        "id": "MTY0MDQyOTM1NjF8MTQ3ODk5Njk1OQ", 
-        "timestamp": 1478996959
-      }, 
-      {
-        "source": {
-          "enriched": {
-            "url": {
-              "entities": [
-                {
-                  "sentiment": {
-                    "score": -0.191211, 
-                    "type": "negative"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": -0.406765997, 
-                    "type": "negative"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.297904015, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.208579004, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": -0.40565899, 
-                    "type": "negative"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0, 
-                    "type": "neutral"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": -0.304868996, 
-                    "type": "negative"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": -0.352017999, 
-                    "type": "negative"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": -0.444296986, 
-                    "type": "negative"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": -0.448148996, 
-                    "type": "negative"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.66286999, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.628745973, 
-                    "type": "positive"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": -0.304868996, 
-                    "type": "negative"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": -0.304868996, 
-                    "type": "negative"
-                  }
-                }, 
-                {
-                  "sentiment": {
-                    "score": 0.628745973, 
+                    "score": 0.306261986, 
                     "type": "positive"
                   }
                 }, 
@@ -824,14 +1916,14 @@
                   }
                 }
               ], 
-              "title": "Zuckerberg among Facebook users mistakenly declared 'dead'"
+              "title": "Amazon: Pre-Order Elena Of Avalor Ready To Rule DVD Only $12.96 (Regularly $19.99) \u2013 Hip2Save"
             }
           }
         }, 
-        "id": "MTY0NjI5NjYzMzB8MTQ3ODk5NjM3Nw", 
-        "timestamp": 1478996377
+        "id": "MTY2OTA1NzE2NjJ8MTQ3ODk5NTIwMA", 
+        "timestamp": 1478995200
       }
     ], 
-    "next": "MTYxNDU1OTg5Nzc0MzcxNjUxfHwxOTg1OTgwODgyNTk2MjMyNzE2fHwzNjQzMjI4MzY0NDkyOTUzNjc1fHwzOTcwNDg3Nzc3MzM4MTgxOTg2fHw0MDc3Mzg1MzcyNzcwODI4NzE1fHw1MzQwMTU0MDI0MjMzODIyNDY3fE1UWTBOakk1TmpZek16QjhNVFEzT0RrNU5qTTNOd3w1Mzc5NTE5NTI4OTUxMDIzODI0fHw1NDg1Mjk4MzcwMDEwNjE1MzQzfHw2MDUwNjUzNDU2NTU3MzQ1ODcwfHw2MTUzNDgwMTYwMzUwNDQwMjMwfE1UWTBNRFF5T1RNMU5qRjhNVFEzT0RrNU5qazFPUXw3NzQ2NTU4NDgwMTY4NTU2ODM0fHw4OTkwOTMyNDczMDc0NTcxMTI0fHwxMDE4Nzk1Nzc5MjI4NzY0NzIyOHx8MTIzNTY2NTUzNzA4MjY5MDMwNjB8fDEyNjEyMjgzMzk5MTEzNDI4NzcxfE1UWTBORFl4T1RJMU1qbDhNVFEzT0RrNU9EY3pPQXwxMzc2NTUwODA0MTI5NjcxMDk2OXx8MTcwODQ5MDQzNjQ0MTY3MTM3NjR8TVRZME16VTNNVFkzTkRGOE1UUTNPRGs1T0RNd013"
+    "next": "MjQxNzk1NTAyMTk3OTM4MjQ3NXx8NDI4NDM5NzkyNDM4MjM2OTMzMXxNVFkyT1RBMU56RTJOako4TVRRM09EazVOVEl3TUF8NDQ0NDQ1OTkxOTg1OTUyMjE5Nnx8NTM3OTUxOTUyODk1MTAyMzgyNHx8NjE3NTM5NDQxNjkwMzIzMzk4MHxNVFkwTXprek16a3hNakI4TVRRM09EazVPRGM1TkF8NjMxMjUxNzY0ODQ4ODQxNDI0NXx8NjQwMTAyOTAyNDU5NTM0ODM3MXx8NzQ0NDI2OTQ1ODgxMjM1NzA4M3x8Nzg4NDU5MDgwMDI2ODUwMDEwOXx8ODc1NDUzNTk1NjU2MTgyNTU2NXx8MTMxOTA5ODQzODQxOTA3ODI1NTd8TVRZME5EUXhPVFl6TWpKOE1UUTNPVEF3TkRJeE13fDEzMzU4NTE3MzYyMDM5NzA1OTIxfHwxNDMxNDA3OTUwMTY4OTM0ODI0MXx8MTYzMjQxNzAxMDM4ODAwODQxMzd8TVRZMk1ETXdNalEyTmpGOE1UUTNPVEF5T0RVek5BfDE4MzMwODEyNDUxMjcwNjkwMDg4fHwxODQxNDg4MTQzMzAzNzQ1ODU1Mnw"
   }
 }

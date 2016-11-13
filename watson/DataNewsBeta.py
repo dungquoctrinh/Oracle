@@ -9,22 +9,22 @@ from bs4 import  BeautifulSoup as bs
 
 def collectNews(company, timeBegin, timeEnd):
     #change the key for the API in here. This is the AlchemyDataNews
-    KEY = '554259945902490161462f7e78bbf5829106ee4f'
+    KEY = '2190f450728492113ce4e5b880a72eefbea73308'
     alchemy_data_news = AlchemyDataNewsV1(api_key=KEY)
-    timeBegin = str(time.mktime(datetime.datetime.strptime(timeBegin, "%d/%m/%Y").timetuple())).split(".")[0]
-    timeEnd = str(time.mktime(datetime.datetime.strptime(timeEnd, "%d/%m/%Y").timetuple())).split(".")[0]
+    #timeBegin = str(time.mktime(datetime.datetime.strptime(timeBegin, "%d/%m/%Y").timetuple())).split(".")[0]
+    #timeEnd = str(time.mktime(datetime.datetime.strptime(timeEnd, "%d/%m/%Y").timetuple())).split(".")[0]
 
     #print(timeBegin)
     #print(timeEnd)
-    timeBegin ='now-60d'
-    timeEnd = 'now'
+    #timeBegin ='now-60d'
+    #timeEnd = 'now'
     #results = alchemy_data_news.get_news_documents(start='now-60d', end='now', time_slice='12h')
     # print(json.dumps(results, indent=2))
 
     company_query = '|text=' + company + ',type=company|'
     results = alchemy_data_news.get_news_documents(
-    start=timeBegin,
-    end=timeEnd,
+    start='now-60d',
+    end='now',
     return_fields=['enriched.url.title',
                    #'enriched.url.url',
                    #'enriched.url.author',
@@ -34,6 +34,7 @@ def collectNews(company, timeBegin, timeEnd):
                    'enriched.url.entities.entity.sentiment.score'
                    ],
     query_fields={'q.enriched.url.enrichedTitle.entities.entity': company_query})
+
     r = json.dumps(results, indent=2)
     return r
 
@@ -79,7 +80,7 @@ def predictionSentiment(company):
     :return:
     """
     #change the key for the API in here. This is the AlchemyDataNews
-    KEY = '554259945902490161462f7e78bbf5829106ee4f'
+    KEY = '2190f450728492113ce4e5b880a72eefbea73308'
     alchemy_data_news = AlchemyDataNewsV1(api_key=KEY)
     timeBegin ='now-2d'
     timeEnd = 'now'
@@ -98,11 +99,11 @@ def predictionSentiment(company):
 
 def main(argv):
 
-    company = "Facebook"
+    company = "Amazon"
     #format dd/mm/Y
 
     #API call has problem
-    json_file = collectNews(company, "1/11/2016", "9/11/2016")
+    json_file = collectNews(company, "now-30d", "now")
     f = open("/home/kid/Github/Oracle/watson/jsonp.json", 'w')
     f.write(str(json_file))
 
